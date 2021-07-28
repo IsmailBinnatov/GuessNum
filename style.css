@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: #fcd3ca;
+
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ?--Container */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* ?--Other */
+
+.block {
+    width: 40%;
+    height: 20%;
+    border: 3px solid #ff3d12;
+    border-radius: 5px;
+
+    padding: 0 20px;
+    margin: 100px auto;
+
+    text-align: center;
+}
+
+.block__inner {
+    margin-bottom: 70px;
+}
+
+h1 {
+    color: #ff3d12;
+
+    margin-bottom: 25px;
+}
+
+.form {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .block {
+        margin: 10px auto;
+        width: 90%;
+    }
+}
